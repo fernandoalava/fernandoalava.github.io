@@ -1,0 +1,18 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.section {
+  font-size: 0.8rem;
+}
+
+.section a {
+  color: black;
+  text-decoration: underline;
+}
+
+.section p {
+  text-align: justify;
+}
