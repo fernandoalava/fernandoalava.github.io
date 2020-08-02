@@ -50,6 +50,6 @@ ul.contact li a:hover {
 @media only screen and (max-width: 768px) {
   [class*="root"] {
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.8em;
   }
 }
