@@ -1,11 +1,17 @@
 body {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1rem;
-  padding: 8px;
+  font-size: 80%;
+  padding: 5%;
+}
+
+.root {
+  font-size: 2em;
+  width: 50%;
+  margin: auto;
 }
 
 .section {
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
 .section a {
@@ -15,4 +21,35 @@ body {
 
 .section p {
   text-align: justify;
+}
+
+ul.contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.contact li {
+  display: inline;
+}
+
+ul.contact li.separator {
+  font-size: 0.6em;
+}
+
+ul.contact li a {
+  font-size: 0.8em;
+  text-decoration: none;
+  color: black;
+}
+
+ul.contact li a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="root"] {
+    width: 100%;
+    font-size: 1.2em;
+  }
 }
